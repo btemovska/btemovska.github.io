@@ -1,106 +1,156 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;}
-
-html{
-    color: rgb(97, 96, 96);
-    font-size: 18px;}
-
-a{
-    color: 4cb691;
-    padding: .25rem .5rem;
-    text-decoration: none;}
-
-.container {
-    padding-right: .50rem;
-    margin: 0 auto;
-    max-width: 1200px;
-    background-color: #f5f5f5;
-    -webkit-box-shadow: 4px 17px 31px -14px rgba(0,0,0,0.75);
-    -moz-box-shadow: 4px 17px 31px -14px rgba(0,0,0,0.75);
-    box-shadow: 4px 17px 31px -14px rgba(0,0,0,0.75);}
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;}
-
-#headerLogo{
-    margin-left: .5rem;
-    font-style: bold;}
-
-.headerNavList{
-    display: flex;}
-
-.headerNavListItem{
-    list-style-type: none;   
-    margin: 1rem;}
-nav a{
-    color: rgb(165, 158, 158);}    
-.headerNavListItem:hover{
-    background-color: #ccc;}    
-
-.profile{
-    display: flex; 
-    justify-content: space-between;              
-    margin: .1rem;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 18px; */
+  color: rgb(97, 96, 96);
 }
 
-.profileHeading{
-    margin-left: 1rem;
-}    
-.profileHeading > p {  
-    margin: 1em 0;     
+html {
+  background: url(./vase2.jpg) no-repeat center center fixed; /*takes the entire image as background*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.projectsTitle{
-    text-align: center;
+nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+nav a {
+  text-decoration: none;
+  color: rgb(124, 122, 122);
+  padding: 0.5em 1.5em;
+}
+nav a:hover {
+  background-color: rgb(214, 214, 214);
 }
 
-img{
-    margin-left: 5em;
+.fa {
+  padding: 0.5em 1em;
 }
-.projectsColumnTitle{
-    text-align: center;
-}
-
-.projectsParagraph{
-    text-align: center;
+.fa-linkedin {
+  margin-left: 4em;
 }
 
-.projects > article > p {
-   text-align: center;
+.nav {
+  margin-left: 50em;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 1em 0em;
+  text-align: center;
+  font-size: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+#headerLogo {
+  padding: 1em 3em;
+  margin-left: 16em;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1em;
+  margin-left: 35em;
+}
+.profileHeading {
+  margin-top: 2em;
+  padding-right: 5em;
+  margin-left: 1rem;
+  font-size: 18px;
+}
+.profileHeading > p {
+  margin: 1em 0em;
+  font-size: 20px;
+}
+
+.technicalInventory {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30em;
+  padding: 0.1em 5em;
+  font-size: 20px;
+}
+
+.technicalInventory h3 {
+  padding: 0.5em 0em;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 23em;
+  font-size: 18px;
+}
+.experience h3 {
+  padding: 0.5em 0em;
+  font-size: 22px;
+}
+
+.experience h4 {
+  padding: 0.7em 0em;
+}
+
+.experience p {
+  padding-right: 5em;
+  font-size: 18px;
+  padding-left: 1em;
 }
 
 .contact {
-    margin-left: 1rem;
+  padding: 5em 5em;
+  margin-left: 40em;
+  margin-top: 10em;
 }
+
 .contact ul {
-    margin-left: 1rem;
+  padding-top: 1em;
+  list-style-type: none;
+}
+.contactList {
+  font-size: 20px;
 }
 
-.footer{
-    background-color: rgb(201, 200, 200);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-    padding: .5rem;
+.projectsHeader {
+  margin-left: 40em;
+  margin-top: 5em;
 }
 
-h6 {
-    text-align: center;
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin-left: 35em;
+  margin-top: 5em;
+  margin-right: 2em;
 }
 
+#projects article {
+  box-sizing: border-box;
+  border: 5px solid rgb(177, 175, 175);
+  padding: 1em;
+}
 
-
-
-
-
+#projects article h3 {
+  background-color: yellow;
+  padding-right: 0em;
+  /* justify-content: center;
+  display: flex; */
+}
