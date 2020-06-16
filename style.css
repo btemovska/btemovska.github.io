@@ -148,9 +148,14 @@ footer {
   padding: 1em;
 }
 
-#projects article h3 {
-  background-color: yellow;
-  padding-right: 0em;
-  /* justify-content: center;
-  display: flex; */
+#projects article p {
+  margin: 0.3em;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#projects img {
+  box-shadow: 5px 5px 5px grey;
+  opacity: 0.5;
+  margin-left: 5em;
 }
