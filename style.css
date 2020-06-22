@@ -76,7 +76,7 @@ footer {
 }
 .profileHeading > p {
   margin: 1em 0em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .technicalInventory {
@@ -84,7 +84,7 @@ footer {
   justify-content: space-between;
   margin-left: 30em;
   padding: 0.1em 5em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .technicalInventory h3 {
@@ -99,7 +99,7 @@ footer {
 }
 .experience h3 {
   padding: 0.5em 0em;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .experience h4 {
@@ -123,12 +123,13 @@ footer {
   list-style-type: none;
 }
 .contactList {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .projectsHeader {
   margin-left: 40em;
   margin-top: 5em;
+  font-size: 18px;
 }
 
 #projects {
@@ -158,4 +159,8 @@ footer {
   box-shadow: 5px 5px 5px grey;
   opacity: 0.5;
   margin-left: 5em;
+}
+
+.contact {
+  padding-bottom: 21em;
 }
